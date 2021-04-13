@@ -1,20 +1,26 @@
 package group5;
 
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.BeforeEach;
 
 /**
- * Unit test for simple App.
+ * 
  */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
+public class AppTest {
+    // private NumFinder nf = null;
+
+    @BeforeEach
+    void setUp() {
+        // nf = new NumFinder();
+    }
+
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void simpleTest() {
+        // nf.find(new int[] { 10, 8, 2, 14, 7 });
+        // int maior = nf.getLargest();
+        // int menor = nf.getSmallest();
+        // Assertions.assertEquals(14, maior);
+        // Assertions.assertEquals(2, menor);
     }
 }
